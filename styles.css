@@ -60,7 +60,7 @@ body
 
 .image-component
 {
-    
+   border-radius: 7px 7px 0 0;
    background-color: var(--accent-color);
 
 }
@@ -200,7 +200,7 @@ footer
         display: flex;
         justify-content: space-around;
     }
-    .hero-img
+    .hero-img, .image-component
     {
         border-radius: 0 7px 7px 0;     
     }
